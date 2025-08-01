@@ -1,4 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landingpage from "./pages/landingpage.jsx";
+import Signupemployee from "./pages/signupemployee.jsx";
+import Signupemployer from "./pages/signupemployer.jsx";
+import { ForgotPassword } from "./pages/ForgotPassword.jsx";
+import EmployeeProfile from "./pages/employee_profile.jsx";
+import { Dashboard } from "./pages/Dashboard.jsx";
 import Payment from "./pages/payment";
 import Profile from "./pages/profile";
 import LandingPage from "./pages/Landing";
