@@ -1,7 +1,7 @@
 import { useEmployeeJob } from '../contexts/EmployeeJobProvider';
 import { useAuth } from '../contexts/AuthProvider';
 
-export function Dashboard() {
+export function dashboard() {
   const { isAuthenticated } = useAuth();
   const {
     jobs,
